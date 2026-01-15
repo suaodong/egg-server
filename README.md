@@ -1,2 +1,31 @@
-# egg-server
-这是一个个人博客的后台服务，使用egg.js+mySql实现，属于个人练习项目。
+# server
+
+
+
+## QuickStart
+
+<!-- add docs here for user -->
+
+see [egg docs][egg] for more detail.
+
+### Development
+
+```bash
+npm i
+npm run dev
+open http://localhost:7001/
+```
+
+### Deploy
+
+```bash
+npm start
+npm stop
+```
+
+### npm scripts
+
+- Use `npm run lint` to check code style.
+- Use `npm test` to run unit test.
+
+[egg]: https://eggjs.org
