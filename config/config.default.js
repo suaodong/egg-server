@@ -14,6 +14,12 @@ module.exports = appInfo => {
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1768440164691_6772';
 
+  config.multipart = {
+    mode: 'file',
+    fileSize: '50mb', // Max file size
+    fieldSize: '10mb', // Max field size (for text fields like content)
+  };
+
   config.middleware = [ 'responseWrapper' ];
 
   config.cors = {

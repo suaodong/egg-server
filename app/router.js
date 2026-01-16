@@ -22,4 +22,10 @@ module.exports = app => {
   router.post('/label/add', controller.label.add);
   router.post('/label/update', controller.label.update);
   router.post('/label/delete', controller.label.delete);
+
+  // article routes
+  router.get('/article/categoryAndTag', controller.article.categoryAndTag);
+  router.post('/article/save', controller.article.saveArticle);
+  router.get('/article/list', controller.article.list);
+  router.get('/article/detail/:id', controller.article.detail);
 };
